@@ -1,0 +1,198 @@
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 300px) {
+
+    h1{
+        text-align: center;
+    }
+    
+    h2{
+       
+      float: right;
+       text-align: end;
+       margin-top: 0;
+       padding:0 20px 0 20px;
+       border: 1px solid #000;
+       width: max-content;
+       height: 30px;
+       
+    }
+    .clear{
+        justify-content: end;
+        height: 30px;
+    }
+    
+      .food1{
+        background-color: grey;
+        width: 450px;
+        height: 200px;
+        display:block;
+        margin: 10px;
+        border: 2px solid #000;
+        justify-content: center;
+    }
+    .food2{
+        background-color: grey;
+        width:450px;
+        height: 200px;
+        display:block;
+        margin: 10px;
+        border: 2px solid #000;
+        justify-content: center;
+    }
+    .food3{
+        background-color: grey;
+        width: 450px;
+        height: 200px;
+        display: block;
+        margin: 10px;
+        border: 2px solid #000;
+        justify-content: center;
+    }
+    p{
+        margin: 10px;
+    }
+    
+    #chicken>h2{
+        background: rgb(184, 129, 129);
+    }
+    #beef>h2{
+        background: rgb(128, 21, 21);
+        color: #fff;
+    }
+    #sushi>h2{
+        background: rgb(213, 214, 116);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    h1{
+        text-align: center;
+    }
+    
+    h2{
+       
+      float: right;
+       text-align: end;
+       margin-top: 0;
+       padding:0 20px 0 20px;
+       border: 1px solid #000;
+       width: max-content;
+       height: 30px;
+       
+    }
+    .clear{
+        justify-content: end;
+        height: 30px;
+    }
+    
+      .food1{
+        background-color: grey;
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        margin: 10px;
+        border: 2px solid #000;
+        justify-content: center;
+    }
+    .food2{
+        background-color: grey;
+        width:300px;
+        height: 200px;
+        display: inline-block;
+        margin: 10px;
+        border: 2px solid #000;
+        justify-content: center;
+    }
+    .food3{
+        background-color: grey;
+        width: 620px;
+        height: 200px;
+        display: block;
+        margin: 10px;
+        border: 2px solid #000;
+        justify-content: center;
+    }
+    p{
+        margin: 10px;
+    }
+    
+    #chicken>h2{
+        background: rgb(184, 129, 129);
+    }
+    #beef>h2{
+        background: rgb(128, 21, 21);
+        color: #fff;
+    }
+    #sushi>h2{
+        background: rgb(213, 214, 116);
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    h1{
+        text-align: center;
+    }
+    
+    h2{
+       
+      float: right;
+       text-align: end;
+       margin-top: 0;
+       padding:0 20px 0 20px;
+       border: 1px solid #000;
+       width: max-content;
+       height: 30px;
+       
+    }
+    .clear{
+        justify-content: end;
+        height: 30px;
+    }
+    
+      .food1{
+        background-color: grey;
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        margin: 10px;
+        border: 2px solid #000;
+        justify-content: center;
+    }
+    .food2{
+        background-color: grey;
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        margin: 10px;
+        border: 2px solid #000;
+        justify-content: center;
+    }
+    .food3{
+        background-color: grey;
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        margin: 10px;
+        border: 2px solid #000;
+        justify-content: center;
+    }
+    p{
+        margin: 10px;
+    }
+    
+    #chicken>h2{
+        background: rgb(184, 129, 129);
+    }
+    #beef>h2{
+        background: rgb(128, 21, 21);
+        color: #fff;
+    }
+    #sushi>h2{
+        background: rgb(213, 214, 116);
+    }
+}
